@@ -1,0 +1,29 @@
+ZAD 1)
+Wśród wszystkich współczynników tylko jeden może być  niewiadomą
+Liczby naturalne
+
+
+PLAN
+1) takeRawInput() - sczytuje wszystkie stringi z tf
+2) setOperation() - pobiera znak operacji
+3) onClick() - wywyołuje
+                takeRawInput()
+                bool checkTF()                //jesli której pole puste to prompt "Wszystkie pola musza byc wypełnione", jeśli nie dokładnie jedna niewiadoma to prompt "Może być tylko jedna niewiadoma"
+                calculate()
+
+4) calculate()
+                - pobiera wszystkie dane i zamienia je na int
+                - switch case w zależności od znaku operacji
+                - switch case w zależności od tego czy niewiadoma jest a,b,c. Jeśli jest a to wtedy mozemy wyliczyc b,c
+                - w każdym z 3 case(var a,b,c)  3 switch case dla kazdej zmiennej z (a,b,c) która może być niewiadomą
+                - w odpowiednim case wyliczane jest rówanie dla danej zmiennej i zwracany jest jej wynik resultLabel.setText(x + "=" + result);
+
+
+
+
+
+
+Zad 2)
+- wykorzystać mouse event
+- get(clikCount()) - do sprawdzania ilości klinięci danego klawisza (przy wyborze literek)
+- ^ co gdy ktoś kliknie więcej razy? Np. modulo ilość literek pod klawiszem, literki wybierane switchem
