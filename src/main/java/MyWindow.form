@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MyWindow">
-  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="3">
+    <margin top="5" left="3" bottom="3" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="714" height="400"/>
+      <xy x="20" y="20" width="1232" height="400"/>
     </constraints>
     <properties>
-      <background color="-9079967"/>
+      <background color="-14261106"/>
     </properties>
     <border type="none"/>
     <children>
@@ -136,7 +136,7 @@
           <text value="Podaj a3"/>
         </properties>
       </component>
-      <component id="cde54" class="javax.swing.JLabel">
+      <component id="cde54" class="javax.swing.JLabel" binding="labelB1">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -144,7 +144,7 @@
           <text value="Podaj b1"/>
         </properties>
       </component>
-      <component id="7e7e3" class="javax.swing.JLabel">
+      <component id="7e7e3" class="javax.swing.JLabel" binding="labelB2">
         <constraints>
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -152,7 +152,7 @@
           <text value="Podaj b2"/>
         </properties>
       </component>
-      <component id="fd6af" class="javax.swing.JLabel">
+      <component id="fd6af" class="javax.swing.JLabel" binding="labelB3">
         <constraints>
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -160,7 +160,7 @@
           <text value="Podaj b3"/>
         </properties>
       </component>
-      <component id="896aa" class="javax.swing.JLabel">
+      <component id="896aa" class="javax.swing.JLabel" binding="labelC1">
         <constraints>
           <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -168,7 +168,7 @@
           <text value="Podaj c1"/>
         </properties>
       </component>
-      <component id="fe279" class="javax.swing.JLabel">
+      <component id="fe279" class="javax.swing.JLabel" binding="labelC2">
         <constraints>
           <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -176,7 +176,7 @@
           <text value="Podaj c2"/>
         </properties>
       </component>
-      <component id="433f2" class="javax.swing.JLabel">
+      <component id="433f2" class="javax.swing.JLabel" binding="labelC3">
         <constraints>
           <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -184,7 +184,7 @@
           <text value="Podaj c3"/>
         </properties>
       </component>
-      <component id="ae9e1" class="javax.swing.JLabel">
+      <component id="ae9e1" class="javax.swing.JLabel" binding="labelC4">
         <constraints>
           <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -215,7 +215,8 @@
           <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <font name="JetBrains Mono" size="18" style="1"/>
+          <text value=" "/>
         </properties>
       </component>
       <component id="eefbb" class="javax.swing.JLabel">
@@ -223,7 +224,8 @@
           <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Wyniki"/>
+          <font name="JetBrains Mono" size="18" style="0"/>
+          <text value="Wynik"/>
         </properties>
       </component>
       <component id="8fd6f" class="javax.swing.JButton" binding="solveBtn">

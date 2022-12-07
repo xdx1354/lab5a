@@ -20,6 +20,8 @@ PLAN
 
 
 
+TODO:
+ - printowanie wyniku w label!
 
 
 
